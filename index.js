@@ -4,7 +4,7 @@ const app=express()
 
 app.get("/",(req,res)=>{
     console.log("hello world");
-    res.send("Hello World")
+    res.send("This is my first ci cd pipeline")
 })
 
 
